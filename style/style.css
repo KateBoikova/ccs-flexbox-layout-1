@@ -1,0 +1,165 @@
+@import url(./reset.css);
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 1em;
+}
+
+header {
+    height: 450px;
+    width: 100%;
+    color: white;
+    background-color: #333333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    padding: 60px 0 0 0;
+}
+
+header > p {
+    margin: 5px 25%;
+    padding: 10px;
+    line-height: 1.5em;
+    font-size: 1em;
+}
+
+header > a {
+    height: 50px;
+    margin: 5px auto;
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+header > a:hover {
+    color: #333333;
+    background-color: white;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    /* padding: 5% auto;  исправить расстояние вокруг заголовков*/
+}
+.flex1 {
+    background-color: #eaeaea;
+    color: #333333;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flex1 > p {
+    column-count: 2;
+    margin: 3px 20%;
+}
+
+.flex2 {
+    height: 550px;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex2In {
+    height: 90%;
+    width: 250px;
+    margin: 0 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: initial;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+}
+
+.flex2In h3 {
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 35px 0;
+}
+
+.flex2In p {
+    padding: 0 1.2em;
+    line-height: 1.75em;
+    font-size: 1.1em;
+}
+
+.flex3 {
+    background-color: white;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: auto;
+}
+
+.flex3 h2 {
+    padding-bottom: 40px;
+}
+
+.flex4 {
+    height: 300px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.flex4Right {
+    background-color: #3e91d6;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex4Left {
+    background-color: #333333;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex4Left > h2,
+.flex4Right > h2 {
+    padding-bottom: 40px;
+}
+
+.flex4Left > p,
+.flex4Right > p {
+    padding: 0 50px;
+}
+
+footer {
+    height: 80px;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+p > a {
+    text-decoration: none;
+    color: #3e91d6;
+}
